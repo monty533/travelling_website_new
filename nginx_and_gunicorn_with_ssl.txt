@@ -19,7 +19,7 @@ step 11 ==== cd /etc/supervisor/conf.d/ and then make gunicorn.conf file by comm
                 
                     (write this code into gnicorn.conf file)
 
-                [program:gunicorn]  
+                [program:gunicorn]
                 directory = /home/ubuntu/ShoppingHi
                 command = /home/ubuntu/montyenv/bin/gunicorn --workers 3 --bind unix:/home/ubuntu/ShoppingHi/app.sock ShoppingHi.wsgi:application>
                                             |                                                       |                       |   
