@@ -63,4 +63,4 @@ step 17 ++++ reload nginx (sudo systemctl reload nginx)
 step 18 ==== sudo apt-get-repository -r ppa:certbot/certbot
 step 19 ++++ sudo apt-get install python3-certbot-nginx
 step 20 ==== sudo certbot --nginx -d domain_name or i.p
-step 21 ==== sudo systemctl reload nginx 
+step 21 ==== sudo systemctl reload nginx
